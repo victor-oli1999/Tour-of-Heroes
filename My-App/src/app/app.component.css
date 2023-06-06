@@ -1,11 +1,20 @@
 /* AppComponent's private CSS styles */
-h1 {
+  h1 {
     margin-bottom: 0;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
   }
   nav a {
     padding: 1rem;
     text-decoration: none;
-    margin-top: 10px;
+    margin: 10px 20px 0 20px;
     display: inline-block;
     background-color: #e8e8e8;
     color: #3d3d3d;
@@ -19,3 +28,4 @@ h1 {
   nav a:active {
     background-color: black;
   }
+ 
