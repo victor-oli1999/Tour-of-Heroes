@@ -13,6 +13,7 @@ label {
     padding: 1rem;
     border-radius: 4px;
     font-size: 1rem;
+    cursor: pointer;
   }
   button:hover {
     background-color: #cfd8dc;
@@ -20,5 +21,15 @@ label {
   button:disabled {
     background-color: #eee;
     color: #ccc;
-    cursor: auto;
+    cursor: pointer;
+  }
+  .hero-detail {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    width: 25%;
+  }
+  h2 {
+    text-align: center;
   }
